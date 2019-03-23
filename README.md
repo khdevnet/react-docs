@@ -141,6 +141,9 @@ HelloWorld.defaultProps = {
 | Knows about Redux | Doesn't know about Redux  | 
 | Often stateful |  Typically functional components (stateless)   | 
 
-
-
-
+####  When Do I Need Redux?
+* Complex data flows
+* Inter-component communication
+* Non-heirarchical data
+* Many actions
+* Same data used in multiple places
