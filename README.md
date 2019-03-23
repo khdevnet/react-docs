@@ -88,6 +88,7 @@ var HelloWorld = function(props) {
 ##### ES6 stateless function
 * No class needed
 * Avoid `this` keyword
+* Keep component pure
 * High signal-to-noise ratio (less code need to write)
 * Enhanced code completion/intellisense
 * Easy to test
