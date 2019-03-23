@@ -1,5 +1,5 @@
 # React Docs
-### Four ways to Create REact Components
+### Four ways to Create React Components
 ##### ES5 create class
 * Autobinding of functions (this.handleChange)
 * PropTypes declared
@@ -79,6 +79,41 @@ InputControlES6.defaultProps = {
   initialValue: ''
 };
 ```
-* ES5 stateless function
-* ES6 stateless function
+##### ES5 stateless function
+```javascript
+var HelloWorld = function(props) {
+  return <h1>Hello World</h1>;
+};
+```
+##### ES6 stateless function
+* No class needed
+* Avoid `this` keyword
+* High signal-to-noise ratio (less code need to write)
+* Enhanced code completion/intellisense
+* Easy to test
+* Performance
+
+```javascript
+const HelloWorld = props => {
+  const sayHi = event => {
+    console.log(`Hi ${props.name}`);
+  };
+
+  return (
+    <div>
+      <a href="#" onClick={sayHi}>
+        Say hi
+      </a>
+    </div>
+  );
+};
+
+HelloWorld.propTypes = {
+  name: React.PropTypes.string
+};
+HelloWorld.defaultProps = {
+  name: ""
+};
+
+```
 * Many more
