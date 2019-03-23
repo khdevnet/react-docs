@@ -133,8 +133,13 @@ HelloWorld.defaultProps = {
 | Child functions (for performance) |       | 
 
 
-##### When use Stateless Components
-
+##### Difference Container vs Presentation Components
+| Container | Presentation  |        
+| ------------- |:-------------:| 
+| Little to no markup      | Nearly all markup | 
+| Pass data and actions down | Receive data and actions via props  |  
+| Knows about Redux | Doesn't know about Redux  | 
+| Often stateful |  Typically functional components (stateless)   | 
 
 
 
