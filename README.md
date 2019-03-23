@@ -124,7 +124,7 @@ HelloWorld.defaultProps = {
 * Parasitic Components
 * StampIt
 
-##### When should I use  Class vs Stateless Components
+#### When should I use  Class vs Stateless Components
 | Class | Stateless  |        
 | ------------- |:-------------:| 
 | State      | Everywhere else | 
@@ -133,7 +133,7 @@ HelloWorld.defaultProps = {
 | Child functions (for performance) |       | 
 
 
-##### Difference Container vs Presentation Components
+#### Difference Container vs Presentation Components
 | Container | Presentation  |        
 | ------------- |:-------------:| 
 | Little to no markup      | Nearly all markup | 
