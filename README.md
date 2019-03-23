@@ -88,7 +88,8 @@ var HelloWorld = function(props) {
 ##### ES6 stateless function
 * No class needed
 * Avoid `this` keyword
-* Keep component pure
+* Keep component pure, best for presentation component
+* Use them whenever is possible 
 * High signal-to-noise ratio (less code need to write)
 * Enhanced code completion/intellisense
 * Easy to test
@@ -117,4 +118,24 @@ HelloWorld.defaultProps = {
 };
 
 ```
-* Many more
+##### Other ways
+* Object.create
+* Mixins
+* Parasitic Components
+* StampIt
+
+##### When should I use  Class vs Stateless Components
+| Class | Stateless  |        
+| ------------- |:-------------:| 
+| State      | Everywhere else | 
+| Refs      |       |  
+| Lifecycle methods |      | 
+| Child functions (for performance) |       | 
+
+
+##### When use Stateless Components
+
+
+
+
+
